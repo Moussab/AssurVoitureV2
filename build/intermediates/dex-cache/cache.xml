@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.android\build-cache\3ce39e3b35e6205dfe4e5f04214fbb9bf8198254\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\classes_15801c5514e60c9428ba8a2a42d2d2d44ef59822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.android\build-cache\818637db15233afb7ffd18a411330e9e1746c967\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\classes_a3e1af84fbfb8daa3cd7d8767db0df4c012e1f00.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\tdm\AssurVoiture_V2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c183431cbb3edc294be1f4000d9660c7378332a8">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5905b65b806c1c1cd5c217b1c5590bff23c6a1b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0_e7ac65eef8da250172dfa1ea9d2ff26905054851.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.android\build-cache\2294cba9d62984b993b20a757be96c12ecc54e2c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\classes_71e3b86d5fa24d4a4154af1da6033b072cf2a164.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\okhttp-3.0.1_9b1af4faa424180b64607687ce7fdeeb42dfe8ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.gradle\caches\modules-2\files-2.1\com.jakewharton.picasso\picasso2-okhttp3-downloader\1.0.2\74a586d03a233d356290983d1ef23a64c1d122b2\picasso2-okhttp3-downloader-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74a586d03a233d356290983d1ef23a64c1d122b2">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\picasso2-okhttp3-downloader-1.0.2_8309c496f11427cb2846b2c0a83fb58a61b44bfb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\tdm\AssurVoiture_V2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9f2646ed3ea1b16147bfbb04536d60d98c77972e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_ace5d09721ac4c3f8cddea5532f86daa884c05a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.android\build-cache\655f1e565e6f9fb8687a60462c9ab24da65369b3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\classes_72fe9e9cccc0beba54a1c72673bd715d85323b9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.android\build-cache\18918f3fb8748d6db82e831a4e675afb2c1e0599\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bef8a6e9c48d173c5507cf734637b0726dc3afb1">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\classes_9c5d7aef75a551223d2034fa24a433b0cf8274ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\okio-1.6.0_2f0d90e7d0a11c0562d2796ce826e54ccc9c7d3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Amine\.android\build-cache\0b1f67caeabe3beb09fac042202a6b99e156055e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\classes_375bbc478fe42e48fc7e017d626afc8f4943cc8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio1\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\tdm\AssurVoiture_V2\app\build\intermediates\pre-dexed\debug\gson-2.2.4_ea3566817aae63c8e87ab16e4d1ccfdc8d788289.jar" />
+    </item>
+
+</items>

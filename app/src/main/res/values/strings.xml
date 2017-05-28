@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">ASSUR VOITURE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="guide_one">Votre voiture est immobilisée ? il vous suffit\nd\'activer la géolocalisation de votre smartphone\net d\'appeler votre Assistance. Nous sommes là\ndans l\'heure.</string>
+    <string name="guide_two">En cas de sinistre, gagnez du temps . Déclarez-le\n via l\'appli et on vous rappelle ensuite pour\ncompléter ensemble votre déclaration.</string>
+    <string name="guide_three">Un accrochage ? Restez zen. Pour ne rien oublier\ndans votre constat amiable, on vous aide par\ntéléphone à le remplir sur place.</string>
+    <string name="guide_four">Besoin d\'une information? Nos conseillers sont là\npour vous répondre.</string>
+
+    <string name="google_android_map_api_key">AIzaSyBUQvTK751rVLWSahdEFNOlh8CmtyvSjwM</string>
+    <string name="apropo">Pour toute information concernant votre\nassurence, rendez-vous sur notre site web\nwww.assur-voiture.dz</string>
+    <string name="action_settings">Paramètre</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_home</item>
+        <item>@string/title_call</item>
+        <item>@string/title_mail</item>
+        <item>@string/title_msg</item>
+        <item>@string/title_geo</item>
+        <item>@string/title_share</item>
+        <item>@string/title_exit</item>
+    </string-array>
+
+
+    <string-array name="nav_drawer_labels1">
+        <item>@string/title_home</item>
+        <item>@string/title_call</item>
+        <item>@string/title_mail</item>
+        <item>@string/title_msg</item>
+        <item>@string/title_geo</item>
+        <item>@string/title_share</item>
+        <item>@string/title_exit</item>
+
+    </string-array>
+
+
+    <string name="title_home">Accueil</string>
+    <string name="title_call">Appeler</string>
+    <string name="title_mail">Mail</string>
+    <string name="title_msg">Ecrire</string>
+    <string name="title_geo">Geo-Localisation</string>
+    <string name="title_share">Partager Sur Drive</string>
+    <string name="title_exit">Se Déconnecter</string>
+    <string name="connect_with_facebook">Connecter via Facebook</string>
+    <string name="creat_account">Crèer compte</string>
+    <string name="password">Mot de passe</string>
+    <string name="title_activity_guide">Guide</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="nombre_de_personne">Nombre de personne :</string>
+    <string name="plus_d_information_sur_la_personne">Plus d\'information sur la personne ...</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="e_mail">Numéro de permis</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="plus_tard">plus tard !</string>
+    <string name="se_connecter">Se Connecter</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="sign_in">Sign in</string>
+    <string name="identit">Identité :</string>
+    <string name="joindre_photo">Joindre photo</string>
+    <string name="guide">Guide</string>
+    <string name="editer">Editer</string>
+    <string name="appeler">APPELER</string>
+    <string name="mail">MAIL</string>
+    <string name="ecrire">ECRIRE</string>
+    <string name="partager_nsur_drive">PARTAGER  SUR DRIVE</string>
+    <string name="geo_nlocalisation">GEO LOCALISATION</string>
+    <string name="assistance_depannage">ASSISTANCE - DEPANNAGE</string>
+    <string name="bienvenu">Bienvenu !</string>
+    <string name="nous_sommes_a_votre_ecoute_n7j_7">NOUS SOMMES A VOTRE ECOUTE 7J/7</string>
+    <string name="fermer">Fermer</string>
+    <string name="declaration_et_suivi_de_sinistre">DECLARATION ET SUIVI DE SINISTRE</string>
+    <string name="service_conseil_constat_amiable">SERVICE CONSEIL CONSTAT AMIABLE</string>
+    <string name="amrine_moussab_amine">AMRINE Moussab Amine</string>
+    <string name="manthan">manthan</string>
+    <string name="carte_grise">Carte Grise</string>
+    <string name="ex_445_65461_3546">Ex : 445 65461 3546</string>
+
+    <string name="camera_button_text">Upload</string>
+    <string name="sign_in_prompt">Sign In to begin</string>
+    <string name="take_photo_prompt">Upload a Photo</string>
+    <string name="download">Download</string>
+    <string name="sign_in_anonymously">Sign In</string>
+    <string name="rationale_storage">This sample reads images from your camera to demonstrate uploading.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+    <string name="log_out">Log out</string>
+    <string name="success">Success</string>
+    <string name="add_geofences">Add geofences</string>
+    <string name="remove_geofences">Remove geofences</string>
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <!-- Error strings -->
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <string name="geofence_transition_notification_text">Cliquer ici pour appeler l expert</string>
+    <string name="progress_downloading">Downloading…</string>
+    <string name="progress_uploading">Uploading…</string>
+    <string name="progress_auth">Signing In…</string>
+
+    <string name="upload_success">Upload finished</string>
+    <string name="upload_failure">Upload failed</string>\
+
+    <string name="download_success">Download finished</string>
+    <string name="download_failure">Download failure</string>
+
+
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+</resources>

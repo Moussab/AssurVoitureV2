@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutlinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint111"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/layoutlinear"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/appbar"
+                app:layout_constraintVertical_bias="1.0">
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraint112"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/appbar">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/appbar"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginTop="8dp">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout1"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/constraint0"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/quote"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Date : "
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    fab:layout_constraintLeft_toLeftOf="parent"
+                                    fab:layout_constraintTop_toTopOf="parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/textinput1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    fab:layout_constraintLeft_toLeftOf="parent"
+                                    fab:layout_constraintRight_toRightOf="parent"
+                                    fab:layout_constraintTop_toBottomOf="@+id/quote">
+
+                                    <TextView
+                                        android:id="@+id/date"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="top"
+                                        android:hint="Tapez ici pour prendre une date"
+                                        android:paddingTop="8dp"
+                                        android:textSize="16sp" />
+                                </android.support.design.widget.TextInputLayout>
+
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView7"
+                        android:layout_width="0dp"
+                        android:layout_height="300dp"
+                        android:layout_margin="@dimen/card_margin"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/cardView6">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout2"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/constraint1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/quote1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Photo : "
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    fab:layout_constraintLeft_toLeftOf="parent"
+                                    fab:layout_constraintTop_toTopOf="parent" />
+
+                                <ImageView
+                                    android:id="@+id/photo"
+                                    android:layout_width="0dp"
+                                    android:layout_height="0dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:src="@drawable/camera"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    fab:layout_constraintTop_toBottomOf="@+id/quote1"
+                                    app:layout_constraintHorizontal_bias="0.0"
+                                    app:layout_constraintVertical_bias="1.0" />
+
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/cardView8"
+                        android:layout_width="0dp"
+                        android:layout_height="300dp"
+                        android:layout_margin="@dimen/card_margin"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout3"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/constraint2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/quote1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Video : "
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    fab:layout_constraintLeft_toLeftOf="parent"
+                                    fab:layout_constraintTop_toTopOf="parent" />
+
+                                <VideoView
+                                    android:id="@+id/videoPlay"
+                                    android:layout_width="0dp"
+                                    android:layout_height="0dp"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    fab:layout_constraintTop_toBottomOf="@+id/quote1" />
+
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/azerty"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/cardView8">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout4"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/linearlayout3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Montant :"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/textinput2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                                    <TextView
+                                        android:id="@+id/montant"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Ex : 250 DZD"
+                                        android:paddingTop="10dp"
+                                        android:textSize="16sp" />
+                                </android.support.design.widget.TextInputLayout>
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/adversaire1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/azerty">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout6"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/constraint5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Nom Adversaire :"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/textinput5"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                                    <TextView
+                                        android:id="@+id/nomAdver"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Ex : Moussab AMRINE"
+                                        android:paddingTop="10dp"
+                                        android:textSize="16sp" />
+                                </android.support.design.widget.TextInputLayout>
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/adversaire2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/adversaire1">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout7"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/constraint6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Num Permis Adversaire :"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/textinput3"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                                    <TextView
+                                        android:id="@+id/nPermisAdvers"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Ex : 19526595"
+                                        android:paddingTop="10dp"
+                                        android:textSize="16sp" />
+                                </android.support.design.widget.TextInputLayout>
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/adversaire3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/adversaire2">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout9"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/constraint7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Vehicule Adversaire :"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                                    <TextView
+                                        android:id="@+id/vehiculeAdvers"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Ex : Sorento"
+                                        android:paddingTop="10dp"
+                                        android:textSize="16sp" />
+                                </android.support.design.widget.TextInputLayout>
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/adversaire4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/card_margin"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:elevation="@dimen/fab_shadow_offset"
+                        fab:layout_constraintLeft_toLeftOf="parent"
+                        fab:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/adversaire3">
+
+                        <LinearLayout
+                            android:id="@+id/linearlayout8"
+                            style="@style/Widget.CardContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <android.support.constraint.ConstraintLayout
+                                android:id="@+id/constraint8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:text="Matricule Adversaire :"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/textinput4"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginStart="8dp"
+                                    android:layout_marginTop="8dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                                    <TextView
+                                        android:id="@+id/matriculeAdvers"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Ex : 02253 112 42"
+                                        android:paddingTop="10dp"
+                                        android:textSize="16sp" />
+                                </android.support.design.widget.TextInputLayout>
+                            </android.support.constraint.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.constraint.ConstraintLayout
+                        android:id="@+id/cl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        fab:layout_constraintTop_toBottomOf="@+id/adversaire4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp">
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_marginStart="32dp">
+
+                            <Button
+                                android:id="@+id/updateFolder"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                android:layout_width="125dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@color/colorPrimary"
+                                android:text="Modifier"
+                                android:textColor="@android:color/background_light"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:theme="@style/MyButton" />
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/btn3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="8dp"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginRight="32dp"
+                            app:layout_constraintRight_toRightOf="parent"
+                            android:layout_marginEnd="32dp">
+
+                            <Button
+                                android:id="@+id/sendFolder"
+                                style="@style/Widget.AppCompat.Button.Borderless"
+                                android:layout_width="125dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@color/colorPrimary"
+                                android:text="Envoyer"
+                                android:textColor="@android:color/background_light"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:theme="@style/MyButton" />
+
+                        </android.support.v7.widget.CardView>
+                    </android.support.constraint.ConstraintLayout>
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

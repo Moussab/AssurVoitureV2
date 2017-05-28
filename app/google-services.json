@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "857402823477",
+    "firebase_url": "https://assurvoiture-163221.firebaseio.com",
+    "project_id": "assurvoiture-163221",
+    "storage_bucket": "assurvoiture-163221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857402823477:android:9ce5a10c85041147",
+        "android_client_info": {
+          "package_name": "dz.tdm.esi.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857402823477-e9u0rnt70hmvfkrreku9eutpr7rflbsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dz.tdm.esi.myapplication",
+            "certificate_hash": "d67e43737cb34c9c9d410516f010221c5f180c54"
+          }
+        },
+        {
+          "client_id": "857402823477-boetjgqrnh677fs8csfmpfcbn2rshkkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8mgKPT0Ni6nQ29gihkeerCA2ySNlIGs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857402823477-boetjgqrnh677fs8csfmpfcbn2rshkkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
